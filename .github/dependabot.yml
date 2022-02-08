@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "ImRodry"
+    commit-message:
+      prefix: chore
+      include: scope
+    labels:
+      - "dependencies"
+    open-pull-requests-limit: 15
